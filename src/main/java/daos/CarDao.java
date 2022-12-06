@@ -2,9 +2,11 @@ package daos;
 
 import models.Car;
 
+import java.sql.Connection;
 import java.util.List;
 
 public class CarDao implements DaoInterface {
+    Connection connection = ConnectionDriver.getConnection();
     public Car findById(int id) {
         return null;
     }
