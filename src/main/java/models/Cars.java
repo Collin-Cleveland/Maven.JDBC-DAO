@@ -1,6 +1,6 @@
 package models;
 
-public class Car implements CarInterface {
+public class Cars implements CarsInterface {
     private int id;
     private String make;
     private String model;
@@ -8,10 +8,10 @@ public class Car implements CarInterface {
     private String color;
     private String vin;
 
-    public Car() {}
+    public Cars() {}
 
-    public Car(Integer id, String make, String model,
-               Integer year, String color, String vin) {
+    public Cars(Integer id, String make, String model,
+                Integer year, String color, String vin) {
         this.id = id;
         this.make = make;
         this.model = model;
@@ -61,7 +61,7 @@ public class Car implements CarInterface {
     }
 
     public String getVin() {
-        return vin;
+        return this.vin;
     }
 
     public void setVin(String vin) {

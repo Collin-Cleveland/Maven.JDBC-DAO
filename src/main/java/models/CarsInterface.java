@@ -1,5 +1,5 @@
 package models;
 
-public interface CarInterface {
+public interface CarsInterface {
     public int getId();
 }

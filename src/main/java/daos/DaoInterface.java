@@ -1,17 +1,17 @@
 package daos;
 
-import models.Car;
+import models.Cars;
 import java.util.List;
 
 public interface DaoInterface{
 
-    public Car findById(int id);
+    public Cars findById(int id);
 
-    public List<Car> findAll();
+    public List<Cars> findAll();
 
-    public Car update(Car dto);
+    public Cars update(Cars dto);
 
-    public Car create(Car dto);
+    public Cars create(Cars dto);
 
     public void delete(int id);
 }
