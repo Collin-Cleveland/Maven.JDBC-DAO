@@ -9,9 +9,9 @@ public interface DaoInterface{
 
     public List<Cars> findAll();
 
-    public Cars update(Cars dto);
+    public boolean update(Cars dto, int id);
 
-    public Cars create(Cars dto);
+    public boolean create(Cars dto);
 
-    public void delete(int id);
+    public boolean delete(int id);
 }

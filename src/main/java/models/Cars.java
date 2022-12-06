@@ -10,6 +10,15 @@ public class Cars implements CarsInterface {
 
     public Cars() {}
 
+    public Cars(String make, String model,
+                Integer year, String color, String vin) {
+        this.make = make;
+        this.model = model;
+        this.year = year;
+        this.color = color;
+        this.vin = vin;
+    }
+
     public Cars(Integer id, String make, String model,
                 Integer year, String color, String vin) {
         this.id = id;
