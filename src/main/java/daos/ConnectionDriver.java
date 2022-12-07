@@ -28,14 +28,14 @@ public class ConnectionDriver {
 //        System.out.println(obj.getVin());
 
         //Find all
-//        for (Cars car : test.findAll()) {
-//            System.out.println(car.getMake());
-//            System.out.println(car.getModel());
-//            System.out.println(car.getYear());
-//            System.out.println(car.getColor());
-//            System.out.println(car.getVin());
-//            System.out.println("----------");
-//        }
+        for (Cars car : test.findAll()) {
+            System.out.println(car.getMake());
+            System.out.println(car.getModel());
+            System.out.println(car.getYear());
+            System.out.println(car.getColor());
+            System.out.println(car.getVin());
+            System.out.println("----------");
+        }
 
         //Update
 //        System.out.println(test.update(
